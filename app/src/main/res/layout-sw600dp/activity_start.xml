@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:background="@drawable/ic_background">
+
+ <!--   <androidx.cardview.widget.CardView
+        android:id="@+id/findMeetingCv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_meeting_card_bg"
+        tools:layout_editor_absoluteX="357dp"
+        tools:layout_editor_absoluteY="192dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fingPersonCv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_meeting_card_bg"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/newMeetingCv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_meeting_card_bg"/>
+
+    <ImageView
+        android:id="@+id/shapeCircleOneIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_meeting_card_bg"
+        android:src="@drawable/ic_circle_one"
+        tools:layout_editor_absoluteX="788dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <ImageView
+        android:id="@+id/shapeCircleTwoIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_circle_two"
+        tools:layout_editor_absoluteX="817dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <ImageView
+        android:id="@+id/shapeCircleThreeIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_circle_three"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <ImageView
+        android:id="@+id/shapeSemiTwoIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_semi_two"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <ImageView
+        android:id="@+id/shapeSemiThreeIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_semi_three"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <ImageView
+        android:id="@+id/shapeSemiFourIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_semi_four"
+        tools:layout_editor_absoluteX="517dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_meeting_card_bg"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="10dp" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

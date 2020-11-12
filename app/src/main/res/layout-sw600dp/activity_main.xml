@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background_two"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <!--<ImageView
+        android:id="@+id/twitterLogoIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_twitter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<TextView
+        android:id="@+id/nameTitleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="142dp"
+        android:layout_marginBottom="46dp"
+        android:text="May I know your name?"
+        android:textColor="#fff"
+        android:textSize="75px"
+        app:layout_constraintBottom_toTopOf="@+id/nameEv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameEv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_et_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center"
+        android:hint="Name &amp; Surname"
+        android:textSize="40px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <ImageView
+        android:id="@+id/shapeCircleOneIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="223dp"
+        android:layout_marginBottom="39dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_circle_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/shapeSemiFourIv"
+        app:layout_constraintStart_toEndOf="@+id/shapeCircleThreeIv"
+        app:layout_constraintTop_toBottomOf="@+id/shapeCircleTwoIv" />
+
+    <ImageView
+        android:id="@+id/shapeCircleTwoIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="397dp"
+        android:layout_marginEnd="499dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_circle_two"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <ImageView
+        android:id="@+id/shapeCircleThreeIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="-10dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_circle_three"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/shapeCircleOneIv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shapeSemiThreeIv" />
+
+    <ImageView
+        android:id="@+id/shapeSemiTwoIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="84dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_semi_two"
+        app:layout_constraintBottom_toTopOf="@+id/shapeSemiFourIv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/shapeCircleTwoIv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/shapeSemiThreeIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="413dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_semi_three"
+        app:layout_constraintBottom_toTopOf="@+id/shapeCircleThreeIv"
+        app:layout_constraintEnd_toStartOf="@+id/shapeSemiFourIv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/shapeSemiFourIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="67dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_semi_four"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/shapeCircleOneIv"
+        app:layout_constraintTop_toBottomOf="@+id/shapeSemiTwoIv" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
